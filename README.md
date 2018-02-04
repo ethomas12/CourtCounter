@@ -1,5 +1,5 @@
 # CourtCounter
-##A basketball scoring app
+## A basketball scoring app
 
 Grow with Google Scholarship: Android Basics
 
