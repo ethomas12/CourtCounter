@@ -1,22 +1,20 @@
 <resources>
-        <!-- Base application theme. -->
-        <style name="AppTheme" parent="Theme.AppCompat.Light">
-            <!-- Primary theme color of the app (sets background color of app bar) -->
-            <item name="colorPrimary">#FF9800</item>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF9800</item>
 
 
-            <!-- Background color of buttons in the app -->
-            <item name="colorButtonNormal">#FF9800</item>
+        <!-- Background color of buttons in the app -->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="QuizImages">
-        <item name="android:layout_width">150dp</item>
+    <style name="ImageButtons">
+        <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">100dp</item>
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:layout_margin">8dp</item>
 
     </style>
 

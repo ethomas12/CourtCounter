@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.courtcounter.MainActivity">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    tools:context="com.example.android.courtcounter.MainActivity"
+    android:background="@drawable/image">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,9 +24,9 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:padding="20dp"
-                    android:text="Team A"
-                    android:textColor="#616161"
-                    android:textSize="14sp"/>
+                    android:text="Lobos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/team_a_score"
@@ -39,19 +36,19 @@
                     android:gravity="center_horizontal"
                     android:paddingBottom="16dp"
                     android:text="0"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="56sp"/>
 
                 <ImageButton
                     android:id="@+id/teama3"
-                    style="@style/QuizImages"
+                    style="@style/ImageButtons"
                     android:contentDescription="@string/teama3_content"
                     android:src="@drawable/teama3"
                     android:onClick="threePointsTeamA"/>
 
                 <ImageButton
                     android:id="@+id/teama2"
-                    style="@style/QuizImages"
+                    style="@style/ImageButtons"
                     android:contentDescription="@string/teama2_content"
                     android:src="@drawable/teama2"
                     android:onClick="twoPointsTeamA"/>
@@ -59,7 +56,7 @@
 
                 <ImageButton
                     android:id="@+id/teama1"
-                    style="@style/QuizImages"
+                    style="@style/ImageButtons"
                     android:contentDescription="@string/teama1_content"
                     android:src="@drawable/teama1"
                     android:onClick="freeThrowTeamA"/>
@@ -85,9 +82,9 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
                     android:padding="20dp"
-                    android:text="Team B"
-                    android:textColor="#616161"
-                    android:textSize="14sp"/>
+                    android:text="Aggies"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"/>
 
                 <TextView
                     android:id="@+id/team_b_score"
@@ -97,19 +94,19 @@
                     android:gravity="center_horizontal"
                     android:paddingBottom="16dp"
                     android:text="0"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="56sp"/>
 
                 <ImageButton
                     android:id="@+id/teamb3"
-                    style="@style/QuizImages"
+                    style="@style/ImageButtons"
                     android:contentDescription="@string/teamb3_content"
                     android:src="@drawable/teamb3"
                     android:onClick="freeThrowTeamB"/>
 
                 <ImageButton
                     android:id="@+id/teamb2"
-                    style="@style/QuizImages"
+                    style="@style/ImageButtons"
                     android:contentDescription="@string/teamb2_content"
                     android:src="@drawable/teamb2"
                     android:onClick="twoPointsTeamB"/>
@@ -117,7 +114,7 @@
 
                 <ImageButton
                     android:id="@+id/teamb1"
-                    style="@style/QuizImages"
+                    style="@style/ImageButtons"
                     android:contentDescription="@string/teamb1_content"
                     android:src="@drawable/teamb1"
                     android:onClick="threePointsTeamB"/>
@@ -138,4 +135,3 @@
     </RelativeLayout>
 
 
-</android.support.constraint.ConstraintLayout>
