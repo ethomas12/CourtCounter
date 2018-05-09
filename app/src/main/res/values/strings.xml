@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Court Counter</string>
+
+    <string name="teama1_content">Team A Free Throw - One Point</string>
+    <string name="teama2_content">Team A Two Point Shot</string>
+    <string name="teama3_content">Team A Three Point Shot</string>
+
+    <string name="teamb1_content">Team B Free Throw - One Point</string>
+    <string name="teamb2_content">Team B Two Point Shot</string>
+    <string name="teamb3_content">Team B Three Point Shot</string>
+
 </resources>

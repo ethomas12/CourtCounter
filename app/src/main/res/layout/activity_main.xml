@@ -42,26 +42,28 @@
                     android:textColor="#000000"
                     android:textSize="56sp"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="24dp"
-                    android:layout_marginVertical="4dp"                    android:onClick="threePointsTeamA"
-                    android:text="+3 Points" />
+                <ImageButton
+                    android:id="@+id/teama3"
+                    style="@style/QuizImages"
+                    android:contentDescription="@string/teama3_content"
+                    android:src="@drawable/teama3"
+                    android:onClick="threePointsTeamA"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="24dp"
-                    android:layout_marginVertical="4dp"                    android:onClick="twoPointsTeamA"
-                    android:text="+2 Points" />
+                <ImageButton
+                    android:id="@+id/teama2"
+                    style="@style/QuizImages"
+                    android:contentDescription="@string/teama2_content"
+                    android:src="@drawable/teama2"
+                    android:onClick="twoPointsTeamA"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="24dp"
-                    android:layout_marginVertical="4dp"                    android:onClick="freeThrowTeamA"
-                    android:text="Free Throw" />
+
+                <ImageButton
+                    android:id="@+id/teama1"
+                    style="@style/QuizImages"
+                    android:contentDescription="@string/teama1_content"
+                    android:src="@drawable/teama1"
+                    android:onClick="freeThrowTeamA"/>
+
             </LinearLayout>
 
             <View
@@ -98,27 +100,28 @@
                     android:textColor="#000000"
                     android:textSize="56sp"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="24dp"
-                    android:layout_marginVertical="4dp"
-                    android:onClick="threePointsTeamB"
-                    android:text="+3 Points" />
+                <ImageButton
+                    android:id="@+id/teamb3"
+                    style="@style/QuizImages"
+                    android:contentDescription="@string/teamb3_content"
+                    android:src="@drawable/teamb3"
+                    android:onClick="freeThrowTeamB"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="24dp"
-                    android:layout_marginVertical="4dp"                    android:onClick="twoPointsTeamB"
-                    android:text="+2 Points" />
+                <ImageButton
+                    android:id="@+id/teamb2"
+                    style="@style/QuizImages"
+                    android:contentDescription="@string/teamb2_content"
+                    android:src="@drawable/teamb2"
+                    android:onClick="twoPointsTeamB"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="24dp"
-                    android:layout_marginVertical="4dp"                    android:onClick="freeThrowTeamB"
-                    android:text="Free Throw" />
+
+                <ImageButton
+                    android:id="@+id/teamb1"
+                    style="@style/QuizImages"
+                    android:contentDescription="@string/teamb1_content"
+                    android:src="@drawable/teamb1"
+                    android:onClick="threePointsTeamB"/>
+
             </LinearLayout>
 
         </LinearLayout>
