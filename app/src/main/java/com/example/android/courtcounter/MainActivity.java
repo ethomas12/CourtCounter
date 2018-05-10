@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.view.View.OnClickListener;
 
 
@@ -34,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         ImageButton teama1 = findViewById(R.id.teama1); //Team A 1 point
         teama1.setOnClickListener(this);
 
+
         ImageButton teamb3 = findViewById(R.id.teamb3); //Team B 3 points
         teamb3.setOnClickListener(this);
 
@@ -42,41 +42,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         ImageButton teamb1 = findViewById(R.id.teamb1); //Team B 1 point
         teamb1.setOnClickListener(this); }
-
-
-        // Perform action on click
-//        switch (v.getId()) {
-//
-//            case R.id.teama3:
-//                scoreTeamA = scoreTeamA + 3;
-//                displayForTeamA(scoreTeamA);
-//                break;
-//            case R.id.teama2:
-//                scoreTeamA = scoreTeamA + 2;
-//                displayForTeamA(scoreTeamA);
-//                break;
-//            case R.id.teama1:
-//                scoreTeamA = scoreTeamA + 1;
-//                displayForTeamA(scoreTeamA);
-//                break;
-//
-//
-//            case R.id.teamb3:
-//                scoreTeamB = scoreTeamB + 3;
-//                displayForTeamB(scoreTeamB);
-//                break;
-//            case R.id.teamb2:
-//                scoreTeamB = scoreTeamB + 2;
-//                displayForTeamB(scoreTeamB);
-//            case R.id.teamb1:
-//                scoreTeamB = scoreTeamB + 1;
-//                displayForTeamB(scoreTeamB);
-//
-//        }
-//    }
-
-
-
 
 //............Team A Methods
         /**

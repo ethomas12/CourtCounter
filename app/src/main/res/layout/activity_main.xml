@@ -19,24 +19,20 @@
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/TeamTitles"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center_horizontal"
                     android:padding="20dp"
-                    android:text="Lobos"
-                    android:textColor="#FFFFFF"
-                    android:textSize="24sp" />
+                    android:text="@string/teama_name"
+                    android:textSize="40sp" />
 
                 <TextView
+                    style="@style/TeamTitles"
                     android:id="@+id/team_a_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center_horizontal"
                     android:paddingBottom="16dp"
-                    android:text="0"
-                    android:textColor="#FFFFFF"
+                    android:text="@string/placeholder_value"
                     android:textSize="56sp"/>
 
                 <ImageButton
@@ -64,9 +60,10 @@
             </LinearLayout>
 
             <View
-                android:layout_width="1dp"
+                android:layout_width="3dp"
                 android:layout_height="match_parent"
-                android:background="@android:color/darker_gray">
+                android:background="@color/textColor"
+                android:layout_marginBottom="8dp">
             </View>
 
             <LinearLayout
@@ -79,23 +76,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center_horizontal"
                     android:padding="20dp"
-                    android:text="Aggies"
-                    android:textColor="#FFFFFF"
-                    android:textSize="24sp"/>
+                    android:text="@string/teamb_name"
+                    android:textSize="40sp"
+                    style="@style/TeamTitles" />
 
                 <TextView
                     android:id="@+id/team_b_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center_horizontal"
                     android:paddingBottom="16dp"
-                    android:text="0"
-                    android:textColor="#FFFFFF"
-                    android:textSize="56sp"/>
+                    android:text="@string/placeholder_value"
+                    android:textSize="56sp"
+                    style="@style/TeamTitles" />
 
                 <ImageButton
                     android:id="@+id/teamb3"
@@ -124,13 +117,11 @@
         </LinearLayout>
 
         <Button
+            style="@style/ResetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
-            android:layout_marginBottom="32dp"
             android:onClick="reset"
-            android:text="Reset" />
+            android:text="@string/reset_text" />
 
     </RelativeLayout>
 
