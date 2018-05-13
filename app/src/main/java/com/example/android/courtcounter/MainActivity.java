@@ -3,7 +3,7 @@ package com.example.android.courtcounter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View.OnClickListener;
 
@@ -24,23 +24,23 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     //implement the onClick method here
     public void onClick(View v) {
 
-        ImageButton teama3 = findViewById(R.id.teama3); // Team A 3 points
+        ImageView teama3 = findViewById(R.id.teama3); // Team A 3 points
         teama3.setOnClickListener(this);
 
-        ImageButton teama2 = findViewById(R.id.teama2); //Team A 2 points
+        ImageView teama2 = findViewById(R.id.teama2); //Team A 2 points
         teama2.setOnClickListener(this);
 
-        ImageButton teama1 = findViewById(R.id.teama1); //Team A 1 point
+        ImageView teama1 = findViewById(R.id.teama1); //Team A 1 point
         teama1.setOnClickListener(this);
 
 
-        ImageButton teamb3 = findViewById(R.id.teamb3); //Team B 3 points
+        ImageView teamb3 = findViewById(R.id.teamb3); //Team B 3 points
         teamb3.setOnClickListener(this);
 
-        ImageButton teamb2 = findViewById(R.id.teamb2); //Team B 2 points
+        ImageView teamb2 = findViewById(R.id.teamb2); //Team B 2 points
         teamb2.setOnClickListener(this);
 
-        ImageButton teamb1 = findViewById(R.id.teamb1); //Team B 1 point
+        ImageView teamb1 = findViewById(R.id.teamb1); //Team B 1 point
         teamb1.setOnClickListener(this); }
 
 //............Team A Methods

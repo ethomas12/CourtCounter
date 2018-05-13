@@ -10,6 +10,7 @@
     <style name="ImageButtons">
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">100dp</item>
+        <item name="android:padding">4dp</item>
         <item name="android:scaleType">centerCrop</item>
 
     </style>
@@ -24,7 +25,7 @@
     <style name="ResetButton">
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_marginBottom">80dp</item>
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">monospace</item>
